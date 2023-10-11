@@ -1,0 +1,9 @@
+import allure
+
+class basepage:
+    def __init__(self, driver):
+        self.driver = driver
+
+    @allure.step("Opening main page")
+    def open(self):
+        self.driver.open()

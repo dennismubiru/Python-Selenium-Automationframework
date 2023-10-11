@@ -1,9 +1,8 @@
 from selenium import webdriver
-from webdriver_manager.chrome import ChromeDriverManager
-from webdriver_manager.firefox import GeckoDriverManager
-from webdriver_manager.microsoft import EdgeChromiumDriverManager
+from webdriver.chrome import ChromeDriverManager
+from webdriver.firefox import GeckoDriverManager
+from webdriver.microsoft import EdgeChromiumDriverManager
 from helpers.webdriver_listener import WebDriverListener
-from selenium.webdriver.support.events import AbstractEventListener
 from msedge.selenium_tools import EdgeOptions, Edge
 from extensions.webdriver_extended import WebDriverExtended
 
